@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/smart-hospital/static/css/main.13b86ae9.css",
-    "main.js": "/smart-hospital/static/js/main.5ecbfcc1.js",
+    "main.js": "/smart-hospital/static/js/main.37542126.js",
     "static/js/239.6936b1f0.chunk.js": "/smart-hospital/static/js/239.6936b1f0.chunk.js",
     "static/js/213.ee3299c3.chunk.js": "/smart-hospital/static/js/213.ee3299c3.chunk.js",
     "static/js/732.d0bbc148.chunk.js": "/smart-hospital/static/js/732.d0bbc148.chunk.js",
@@ -25,7 +25,7 @@
     "static/media/fa-v4compatibility.woff2": "/smart-hospital/static/media/fa-v4compatibility.6cfec8414be20e2c3426.woff2",
     "index.html": "/smart-hospital/index.html",
     "main.13b86ae9.css.map": "/smart-hospital/static/css/main.13b86ae9.css.map",
-    "main.5ecbfcc1.js.map": "/smart-hospital/static/js/main.5ecbfcc1.js.map",
+    "main.37542126.js.map": "/smart-hospital/static/js/main.37542126.js.map",
     "239.6936b1f0.chunk.js.map": "/smart-hospital/static/js/239.6936b1f0.chunk.js.map",
     "213.ee3299c3.chunk.js.map": "/smart-hospital/static/js/213.ee3299c3.chunk.js.map",
     "732.d0bbc148.chunk.js.map": "/smart-hospital/static/js/732.d0bbc148.chunk.js.map",
@@ -33,6 +33,6 @@
   },
   "entrypoints": [
     "static/css/main.13b86ae9.css",
-    "static/js/main.5ecbfcc1.js"
+    "static/js/main.37542126.js"
   ]
 }
