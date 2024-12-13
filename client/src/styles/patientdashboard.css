@@ -1,0 +1,133 @@
+/* Container styles */
+.app-container {
+  text-align: center;
+  background-color: #f9f9f9;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.app-header {
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.app-header h2 {
+  margin: 0;
+}
+
+.app-main {
+  margin-top: 20px;
+}
+
+.image-container {
+  margin-bottom: 30px;
+}
+
+/* Patient Profile Image */
+.profile-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.profile-image {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #3cc447; /* Green border for the image */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  margin-bottom: 10px;
+}
+
+.profile-section h3 {
+  margin: 5px 0 15px;
+  font-size: 24px;
+  color: #333;
+}
+
+/* Menu container for feature cards */
+.menu-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.menu-container1 {
+  justify-content: center;
+  margin-top: 100px;
+  margin-left: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.menu-item1 {
+  width: 150px;
+  padding: 10px;
+  background-color: inherit;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.menu-item {
+  width: 150px;
+  padding: 10px;
+  margin-top: 50px;
+  background-color: #3cc447;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.menu-item img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.menu-item p {
+  font-size: 16px;
+  color: #333;
+}
+
+.menu-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsive styles */
+@media (max-width: 600px) {
+  .menu-item {
+    width: 120px;
+  }
+
+  .menu-item p {
+    font-size: 14px;
+  }
+}
+
+/* Ensure 4 items in a row and the next 4 below */
+.menu-container {
+  flex-wrap: wrap;
+}
+
+.menu-item {
+  flex: 0 0 calc(25% - 20px); /* 25% width minus gap size to fit 4 items per row */
+}
+
+/* For smaller screens (max-width: 600px), adjust to show fewer items per row */
+@media (max-width: 600px) {
+  .menu-item {
+    flex: 0 0 calc(50% - 20px); /* Show 2 items per row on smaller screens */
+  }
+}
+

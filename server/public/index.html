@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sensor Data Display</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <h1>Sensor Data</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Timestamp</th>
+                <th>BPM</th>
+                <th>SpO2</th>
+            </tr>
+        </thead>
+        <tbody id="sensorDataTable"></tbody>
+    </table>
+
+    <script>
+        async function fetchSensorData() {
+            const response = await fetch('http://localhost:3001/sensor-data');
+            const data = await response.json();
+            const tableBody = document.getElementById('sensorDataTable');
+            tableBody.innerHTML = ''; // Clear existing data
+
+            data.forEach(record => {
+                const row = document.createElement('tr');
+                row.innerHTML = `
+                    <td>${new Date(record.timestamp).toLocaleString()}</td>
+                    <td>${record.bpm}</td>
+                    <td>${record.spo2}</td>
+                `;
+                tableBody.appendChild(row);
+            });
+        }
+
+        // Fetch sensor data every 5 seconds
+        setInterval(fetchSensorData, 5000);
+        fetchSensorData(); // Initial fetch
+    </script>
+</body>
+</html>

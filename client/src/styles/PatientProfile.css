@@ -1,0 +1,74 @@
+.patient-profile-container {
+  display: flex;
+  padding: 20px;
+  background-color: #f0f4f8; /* Light background for the entire container */
+}
+
+.patient-profile {
+  flex: 2; /* Takes up 2/3 of the space */
+  padding: 20px;
+  background-color: #ffffff; /* White background for profile */
+  border-radius: 2px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-right: 20px; /* Space between profile and sidebar */
+}
+
+.patient-sidebar {
+  flex: 1; /* Takes up 1/3 of the space */
+  padding: 20px;
+  background-color: #e9f5ff; /* Light blue background for sidebar */
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.patient-image {
+  margin-bottom: 20px;
+  border: 2px solid #007bff; /* Blue border for the image */
+}
+
+h3 {
+  color: #333; /* Dark gray color for headings */
+  margin: 10px 0;
+}
+
+h4 {
+  margin: 15px 0 10px;
+  color: #007bff; /* Blue color for subheadings */
+}
+
+p {
+  margin: 5px 0;
+  color: #555; /* Medium gray for paragraph text */
+}
+
+strong {
+  color: #333; /* Dark gray for bold text */
+}
+
+.dropdown, .input-text {
+  width: 100%; /* Full width for dropdowns and input fields */
+  margin-bottom: 15px; /* Space below inputs */
+}
+
+button {
+  margin-top: 10px; /* Space above buttons */
+  background-color: #007bff; /* Blue background for buttons */
+  color: white; /* White text for buttons */
+}
+
+button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: #c0c0c0; /* Gray background for disabled buttons */
+  cursor: not-allowed;
+}
+
+.patient-status {
+  margin: 15px 0; /* Margin around the status section */
+  padding: 10px;
+  background-color: #f8f9fa; /* Light gray background for status */
+  border-radius: 5px;
+}

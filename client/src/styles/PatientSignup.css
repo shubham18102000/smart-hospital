@@ -1,0 +1,26 @@
+.patient-signup-container {
+    max-width: 600px; /* Set a maximum width for the form container */
+    margin: 50px auto; /* Center the container on the page */
+    padding: 20px; /* Add some padding */
+    border: 1px solid #ddd; /* Light border for the container */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    background-color: #f8f9fa; /* Light background color */
+  }
+  
+  .patient-signup-container h2 {
+    text-align: center; /* Center the heading */
+    color: #2c3e50; /* Dark color for the heading */
+    margin-bottom: 20px; /* Space below the heading */
+  }
+  
+  .patient-signup-container button {
+    width: 100%; /* Full width for the button */
+    padding: 10px; /* Padding for the button */
+  }
+  
+  .patient-signup-container p {
+    text-align: center; /* Center the paragraph text */
+    margin-top: 20px; /* Space above the paragraph */
+  }
+  

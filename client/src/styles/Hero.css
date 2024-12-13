@@ -1,0 +1,101 @@
+.hero-section {
+  
+  background-color: #e8edf1;
+  padding: 100px 0;
+}
+
+.hero-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.hero-description {
+  font-size: 1.25rem;
+  margin-bottom: 30px;
+  color: #555;
+}
+
+.hero-section img {
+  max-width: 85%;
+  height: auto;
+}
+
+/* Testimonial Section Styling */
+.testimonial-heading {
+  font-size: 1.75rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.testimonial-subheading {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.testimonial-row {
+  margin-top: 20px;
+}
+
+.testimonial-card {
+  border: none;
+  background-color: #ffffff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.testimonial-photo {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 15px;
+  
+}
+
+.testimonial-name {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+  margin-top: 10px;
+}
+
+.testimonial-review {
+  font-size: 0.95rem;
+  color: black;
+  margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+  .hero-section {
+    padding: 50px 0;
+  }
+
+  .hero-title {
+    font-size: 2rem;
+  }
+
+  .hero-description {
+    font-size: 1rem;
+  }
+
+  .testimonial-card {
+    max-width: 100%;
+  }
+
+  .testimonial-name {
+    font-size: 1.1rem;
+  }
+
+  .testimonial-review {
+    font-size: 0.85rem;
+  }
+}
+
+

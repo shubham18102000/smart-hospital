@@ -1,0 +1,49 @@
+/* DiabetesPrediction.css */
+
+/* Container styles */
+.diabetes-prediction-container {
+  max-width: 600px; /* Set a max width for the form */
+  margin: 20px auto; /* Center the container */
+  padding: 20px; /* Add some padding */
+  background-color: #f9f9f9; /* Light background color */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
+}
+
+/* Header styles */
+.diabetes-prediction-container h3 {
+  text-align: center; /* Center align the header */
+  color: #4a90e2; /* Header color */
+}
+
+/* Form styles */
+.form-group {
+  margin-bottom: 15px; /* Spacing between form groups */
+}
+
+/* Button styles */
+button {
+  width: 100%; /* Full width button */
+}
+
+/* Prediction result styles */
+.prediction-result {
+  margin-top: 20px; /* Space above the result section */
+  padding: 15px; /* Padding around the result */
+  border: 1px solid #ddd; /* Border around the result */
+  border-radius: 8px; /* Rounded corners */
+  background-color: #eaf6fd; /* Light blue background */
+  text-align: center; /* Center the text */
+}
+
+/* Prediction result header styles */
+.prediction-result h4 {
+  margin: 0; /* Remove margin for the heading */
+  color: #333; /* Darker color for heading */
+}
+
+/* Prediction result paragraph styles */
+.prediction-result p {
+  font-size: 18px; /* Larger font size for result */
+  color: #333; /* Darker color for text */
+}
